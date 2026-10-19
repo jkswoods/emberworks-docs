@@ -1,0 +1,48 @@
+name: Player documentation
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements-docs.txt'
+      - 'requirements-docs-lock.txt'
+      - '.github/workflows/docs.yml'
+permissions:
+  contents: read
+concurrency:
+  group: player-docs-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-docs-lock.txt
+      - run: python -m pip install -r requirements-docs-lock.txt
+      - run: python -m mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          path: site
+  deploy:
+    if: github.event_name == 'workflow_dispatch'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4

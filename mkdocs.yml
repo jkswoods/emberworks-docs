@@ -1,0 +1,44 @@
+site_name: Emberworks
+site_url: https://jkswoods.github.io/emberworks-docs/
+repo_url: https://github.com/jkswoods/emberworks-docs
+site_description: Native machine and progression guide for Emberworks 0.3.0-dev on Hytale 0.7.2
+edit_uri: ""
+docs_dir: docs
+site_dir: site
+theme:
+  name: readthedocs
+  logo: assets/brand/logo.png
+  highlightjs: true
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - fenced_code
+extra_css:
+  - assets/guide.css
+validation:
+  links:
+    not_found: warn
+    anchors: warn
+nav:
+  - Overview: index.md
+  - Install and compatibility: installation.md
+  - First useful loop: getting-started.md
+  - Progression: progression.md
+  - Machines:
+      - Machine index: features/index.md
+      - Power and routing: features/power-routing.md
+      - Processing: features/processing.md
+      - Media and patterns: features/media-patterns.md
+      - Water and equipment: features/water-equipment.md
+  - Recipes:
+      - Processing catalog: recipes.md
+      - Workbench crafting: crafting.md
+  - Upgrades: upgrades.md
+  - Configuration: configuration.md
+  - Troubleshooting: troubleshooting.md
+  - Native screenshots: gallery.md
+  - Development changes: changelog.md
+  - About:
+      - About Emberworks: about.md
+      - Third-party notices: third-party-notices.md

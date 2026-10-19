@@ -1,0 +1,18 @@
+/* Emberworks original guide palette; keep native UI screenshots unaltered. */
+:root { --ew-ink:#263139; --ew-copper:#975124; --ew-teal:#34676b; }
+.wy-side-nav-search, .wy-nav-top { background:#242e35; }
+.wy-nav-side { background:#222a30; }
+.wy-side-nav-search > a img.logo { width:265px; max-height:none; padding:0; margin:0 auto 12px; }
+.wy-nav-content { max-width:1120px; color:var(--ew-ink); }
+.wy-nav-content a { color:var(--ew-teal); text-decoration-thickness:1px; }
+.wy-nav-content a:hover { color:var(--ew-copper); text-decoration:underline; }
+h1,h2,h3 { color:#323b43; }
+h1 { border-bottom:3px solid #b47748; padding-bottom:.4em; }
+.rst-content img { height:auto; max-width:100%; border-radius:4px; }
+.rst-content p:has(>img), .rst-content p:has(>a>img) { margin:1.5rem 0 .7rem; }
+.rst-content table.docutils td, .rst-content table.docutils th { white-space:normal; vertical-align:top; }
+.rst-content code { color:#74411f; background:#f6f2ec; border-color:#e8dfd3; }
+.rst-content pre code { color:inherit; }
+.wy-menu-vertical a { line-height:1.5; }
+.wy-menu-vertical li.current > a { border-right:4px solid #b47748; }
+@media(max-width:768px) { .wy-nav-content { padding:1.3rem; } .rst-content table.docutils { font-size:.9rem; } }

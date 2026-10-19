@@ -1,0 +1,1233 @@
+{
+  "version": "0.3.0-dev",
+  "game": "0.7.2",
+  "recipes": [
+    {
+      "id": "EW_AdvancedChassis",
+      "name": "Advanced Chassis",
+      "inputs": {
+        "EW_TemperedAlloy": 8,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Assembler",
+      "name": "Pattern Assembler",
+      "inputs": {
+        "Ingredient_Bar_Iron": 12,
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 6,
+        "EW_LumenIngot": 1,
+        "EW_VoidIngot": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Assembler_T1",
+      "name": "Foundry Pattern Array",
+      "inputs": {
+        "EW_Assembler": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Assembler_T2",
+      "name": "Refined Pattern Array",
+      "inputs": {
+        "EW_Assembler_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Assembler_T3",
+      "name": "Precision Pattern Array",
+      "inputs": {
+        "EW_Assembler_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Assembler_T4",
+      "name": "Resonant Pattern Array",
+      "inputs": {
+        "EW_Assembler_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Cell",
+      "name": "Flux Reservoir",
+      "inputs": {
+        "Ingredient_Bar_Iron": 6,
+        "Ingredient_Bar_Copper": 8
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Cell_T1",
+      "name": "Foundry Flux Reservoir",
+      "inputs": {
+        "EW_Cell": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Cell_T2",
+      "name": "Refined Flux Reservoir",
+      "inputs": {
+        "EW_Cell_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Cell_T3",
+      "name": "Precision Flux Reservoir",
+      "inputs": {
+        "EW_Cell_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Cell_T4",
+      "name": "Resonant Flux Reservoir",
+      "inputs": {
+        "EW_Cell_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Charger",
+      "name": "Charging Plinth",
+      "inputs": {
+        "EW_Cell": 1,
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Conveyor",
+      "name": "Parcel Duct",
+      "inputs": {
+        "Ingredient_Bar_Iron": 1,
+        "Ingredient_Bar_Copper": 1
+      },
+      "quantity": 4,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Crate",
+      "name": "Supply Crate",
+      "inputs": {
+        "Ingredient_Bar_Iron": 4,
+        "Ingredient_Bar_Copper": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Crate_T1",
+      "name": "Foundry Supply Crate",
+      "inputs": {
+        "EW_Crate": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Crate_T2",
+      "name": "Refined Supply Crate",
+      "inputs": {
+        "EW_Crate_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Crate_T3",
+      "name": "Precision Supply Crate",
+      "inputs": {
+        "EW_Crate_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Crate_T4",
+      "name": "Resonant Supply Crate",
+      "inputs": {
+        "EW_Crate_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_EfficiencyModule",
+      "name": "Efficiency Module",
+      "inputs": {
+        "EW_TemperedAlloy": 2,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Floodgate",
+      "name": "Floodgate",
+      "inputs": {
+        "EW_Pump": 1,
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluxPack",
+      "name": "Flux Pack",
+      "inputs": {
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 4,
+        "EW_LumenIngot": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Forge",
+      "name": "Pressure Forge",
+      "inputs": {
+        "Ingredient_Bar_Iron": 12,
+        "Ingredient_Bar_Copper": 6,
+        "EW_TemperedAlloy": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Forge_T1",
+      "name": "Foundry Pressure Array",
+      "inputs": {
+        "EW_Forge": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Forge_T2",
+      "name": "Refined Pressure Array",
+      "inputs": {
+        "EW_Forge_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Forge_T3",
+      "name": "Precision Pressure Array",
+      "inputs": {
+        "EW_Forge_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Forge_T4",
+      "name": "Resonant Pressure Array",
+      "inputs": {
+        "EW_Forge_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Furnace",
+      "name": "Arc Hearth",
+      "inputs": {
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 5
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Furnace_T1",
+      "name": "Foundry Hearth Array",
+      "inputs": {
+        "EW_Furnace": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Furnace_T2",
+      "name": "Refined Hearth Array",
+      "inputs": {
+        "EW_Furnace_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Furnace_T3",
+      "name": "Precision Hearth Array",
+      "inputs": {
+        "EW_Furnace_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Furnace_T4",
+      "name": "Resonant Hearth Array",
+      "inputs": {
+        "EW_Furnace_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Generator",
+      "name": "Cinder Dynamo",
+      "inputs": {
+        "Ingredient_Bar_Iron": 6,
+        "Ingredient_Bar_Copper": 3,
+        "Ingredient_Charcoal": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Grinder",
+      "name": "Impact Grinder",
+      "inputs": {
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Grinder_T1",
+      "name": "Foundry Impact Array",
+      "inputs": {
+        "EW_Grinder": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Grinder_T2",
+      "name": "Refined Impact Array",
+      "inputs": {
+        "EW_Grinder_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Grinder_T3",
+      "name": "Precision Impact Array",
+      "inputs": {
+        "EW_Grinder_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Grinder_T4",
+      "name": "Resonant Impact Array",
+      "inputs": {
+        "EW_Grinder_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Infuser",
+      "name": "Alloy Crucible",
+      "inputs": {
+        "Ingredient_Bar_Iron": 10,
+        "Ingredient_Bar_Copper": 6
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Infuser_T1",
+      "name": "Foundry Alloy Array",
+      "inputs": {
+        "EW_Infuser": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Infuser_T2",
+      "name": "Refined Alloy Array",
+      "inputs": {
+        "EW_Infuser_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Infuser_T3",
+      "name": "Precision Alloy Array",
+      "inputs": {
+        "EW_Infuser_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Infuser_T4",
+      "name": "Resonant Alloy Array",
+      "inputs": {
+        "EW_Infuser_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Installer_T1",
+      "name": "Foundry Installer",
+      "inputs": {
+        "EW_AdvancedChassis": 1,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Installer_T2",
+      "name": "Refined Installer",
+      "inputs": {
+        "EW_AdvancedChassis": 2,
+        "Ingredient_Bar_Copper": 8
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Installer_T3",
+      "name": "Precision Installer",
+      "inputs": {
+        "EW_AdvancedChassis": 4,
+        "Ingredient_Bar_Copper": 16
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Installer_T4",
+      "name": "Resonant Installer",
+      "inputs": {
+        "EW_AdvancedChassis": 8,
+        "Ingredient_Bar_Copper": 32
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Mill",
+      "name": "Stamp Mill",
+      "inputs": {
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Mill_T1",
+      "name": "Foundry Stamp Array",
+      "inputs": {
+        "EW_Mill": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Mill_T2",
+      "name": "Refined Stamp Array",
+      "inputs": {
+        "EW_Mill_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Mill_T3",
+      "name": "Precision Stamp Array",
+      "inputs": {
+        "EW_Mill_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Mill_T4",
+      "name": "Resonant Stamp Array",
+      "inputs": {
+        "EW_Mill_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Press",
+      "name": "Aggregate Press",
+      "inputs": {
+        "Ingredient_Bar_Iron": 10,
+        "Ingredient_Bar_Copper": 5
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Press_T1",
+      "name": "Foundry Aggregate Array",
+      "inputs": {
+        "EW_Press": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Press_T2",
+      "name": "Refined Aggregate Array",
+      "inputs": {
+        "EW_Press_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Press_T3",
+      "name": "Precision Aggregate Array",
+      "inputs": {
+        "EW_Press_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Press_T4",
+      "name": "Resonant Aggregate Array",
+      "inputs": {
+        "EW_Press_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Pump",
+      "name": "Intake Pump",
+      "inputs": {
+        "Ingredient_Bar_Iron": 10,
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 4,
+        "Container_Bucket": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_SpeedModule",
+      "name": "Speed Module",
+      "inputs": {
+        "EW_TemperedAlloy": 2,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Splitter",
+      "name": "Timber Splitter",
+      "inputs": {
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Splitter_T1",
+      "name": "Foundry Timber Array",
+      "inputs": {
+        "EW_Splitter": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Splitter_T2",
+      "name": "Refined Timber Array",
+      "inputs": {
+        "EW_Splitter_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Splitter_T3",
+      "name": "Precision Timber Array",
+      "inputs": {
+        "EW_Splitter_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Splitter_T4",
+      "name": "Resonant Timber Array",
+      "inputs": {
+        "EW_Splitter_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_Wire",
+      "name": "Flux Rail",
+      "inputs": {
+        "Ingredient_Bar_Copper": 1
+      },
+      "quantity": 4,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    }
+  ]
+}
