@@ -1,6 +1,13 @@
 name: Player documentation
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
+  push:
+    branches: [codex/player-guide]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements-docs-lock.txt'
+      - '.github/workflows/docs.yml'
   pull_request:
     paths:
       - 'docs/**'
