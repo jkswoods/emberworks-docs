@@ -236,6 +236,198 @@
       "seconds": 3
     },
     {
+      "id": "EW_ChemicalTank",
+      "name": "Chemical Tank",
+      "inputs": {
+        "Ingredient_Bar_Iron": 10,
+        "Ingredient_Bar_Copper": 4,
+        "EW_TemperedAlloy": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTank_T1",
+      "name": "Foundry Chemical Tank",
+      "inputs": {
+        "EW_ChemicalTank": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTank_T2",
+      "name": "Refined Chemical Tank",
+      "inputs": {
+        "EW_ChemicalTank_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTank_T3",
+      "name": "Precision Chemical Tank",
+      "inputs": {
+        "EW_ChemicalTank_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTank_T4",
+      "name": "Resonant Chemical Tank",
+      "inputs": {
+        "EW_ChemicalTank_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTube",
+      "name": "Chemical Tube",
+      "inputs": {
+        "Ingredient_Bar_Iron": 3,
+        "Ingredient_Bar_Copper": 2,
+        "EW_TemperedAlloy": 1
+      },
+      "quantity": 4,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTube_T1",
+      "name": "Foundry Chemical Tube",
+      "inputs": {
+        "EW_ChemicalTube": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTube_T2",
+      "name": "Refined Chemical Tube",
+      "inputs": {
+        "EW_ChemicalTube_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTube_T3",
+      "name": "Precision Chemical Tube",
+      "inputs": {
+        "EW_ChemicalTube_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_ChemicalTube_T4",
+      "name": "Resonant Chemical Tube",
+      "inputs": {
+        "EW_ChemicalTube_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
       "id": "EW_Conveyor",
       "name": "Parcel Duct",
       "inputs": {
@@ -376,6 +568,198 @@
         "Ingredient_Bar_Iron": 8,
         "Ingredient_Bar_Copper": 8,
         "EW_TemperedAlloy": 4
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidPipe",
+      "name": "Fluid Pipe",
+      "inputs": {
+        "Ingredient_Bar_Iron": 2,
+        "Ingredient_Bar_Copper": 2
+      },
+      "quantity": 4,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidPipe_T1",
+      "name": "Foundry Fluid Pipe",
+      "inputs": {
+        "EW_FluidPipe": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidPipe_T2",
+      "name": "Refined Fluid Pipe",
+      "inputs": {
+        "EW_FluidPipe_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidPipe_T3",
+      "name": "Precision Fluid Pipe",
+      "inputs": {
+        "EW_FluidPipe_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidPipe_T4",
+      "name": "Resonant Fluid Pipe",
+      "inputs": {
+        "EW_FluidPipe_T3": 1,
+        "EW_Installer_T4": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidTank",
+      "name": "Fluid Tank",
+      "inputs": {
+        "Ingredient_Bar_Iron": 8,
+        "Ingredient_Bar_Copper": 4,
+        "EW_TemperedAlloy": 2,
+        "Container_Bucket": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidTank_T1",
+      "name": "Foundry Fluid Tank",
+      "inputs": {
+        "EW_FluidTank": 1,
+        "EW_Installer_T1": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidTank_T2",
+      "name": "Refined Fluid Tank",
+      "inputs": {
+        "EW_FluidTank_T1": 1,
+        "EW_Installer_T2": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidTank_T3",
+      "name": "Precision Fluid Tank",
+      "inputs": {
+        "EW_FluidTank_T2": 1,
+        "EW_Installer_T3": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
+      "id": "EW_FluidTank_T4",
+      "name": "Resonant Fluid Tank",
+      "inputs": {
+        "EW_FluidTank_T3": 1,
+        "EW_Installer_T4": 1
       },
       "quantity": 1,
       "bench": [

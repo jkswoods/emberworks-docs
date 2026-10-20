@@ -1,6 +1,6 @@
 # Water and portable equipment energy
 
-These are **experimental supported-Lab features**. They require the current guarded native adapter, owner presence and loaded blocks. Broader world/provider support, region filling, other fluids and multiplayer acceptance remain incomplete.
+These are **experimental supported-Lab features**. They require the current guarded native adapter, owner presence and loaded blocks. Broader world/provider support, region filling and multiplayer acceptance remain incomplete.
 
 ## Intake Pump
 
@@ -27,3 +27,6 @@ A Flux Pack stores **10,000 Flux**. Hold one while standing within one horizonta
 Use **Charge held pack** for an explicit bounded transfer. **Pause before Return held energy**; this prevents the automatic controller immediately charging it again. Returns preserve energy rather than generating new Flux. The charge survives native inventory movement and supported saved-state recovery. Only the authored held Flux Pack contract is implemented here; equipped armor slots, arbitrary batteries, tools/suits and other providers are not implied.
 
 World-water actions can cause brief stalls in this development build. Sound assets and state bindings are installed; human mix/listening and real multiplayer audience checks remain open.
+
+
+[Fluid Tanks and Pipes](fluid-networks.md) can store and route water between loaded components. The Pump and Floodgate remain water-only; milk carriers belong in a Fluid Tank.
