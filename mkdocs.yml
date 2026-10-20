@@ -33,6 +33,7 @@ nav:
       - Water and equipment: features/water-equipment.md
       - Fluid tanks and pipes: features/fluid-networks.md
       - Chemical tanks and tubes: features/chemical-networks.md
+      - Water separation: features/separation.md
   - Recipes:
       - Processing catalog: recipes.md
       - Workbench crafting: crafting.md

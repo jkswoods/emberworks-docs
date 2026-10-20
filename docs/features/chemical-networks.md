@@ -1,6 +1,6 @@
 # Chemical tanks and tubes
 
-Chemical Tanks and Chemical Tubes store and route finite **Carbon** or **Cobalt binder**. A component holds one identity at a time. These stores are separate from water and milk; transport needs no Flux.
+Chemical Tanks and Chemical Tubes store and route finite **Carbon**, **Cobalt binder**, **Hydrogen** or **Oxygen**. A component holds one identity at a time. These stores are separate from water and milk; transport needs no Flux.
 
 This is a development feature for the supported test setup. A native tank → tube → Crucible loop has produced one Tempered Alloy, including a paused paid batch across normal reload. Binder rejection, return, carrier recovery and stocked Foundry upgrades have also been exercised. Complete survival crafting, ordinary Use input, human listening and real multiplayer remain under acceptance.
 
@@ -17,6 +17,8 @@ Open the owned tank while standing nearby. The development command `/emberworks 
 3. To recover stock, pause the tank and select **Recover to hand**, holding either an empty hand or the matching ordinary carrier.
 
 Recovery returns whole carrier items into at most one 100-item held stack. Overflow and smaller chemical residues stay in the tank. Customized carriers and mixed chemical identities refuse without spending materials.
+
+Hydrogen and Oxygen come from the [Electrolytic Separator](separation.md). They currently have no item-carrier exchange: keep them in separate tanks and use chemical transport. Charcoal and Cobalt bars do not recover these gases.
 
 ![Paused Foundry Chemical Tank containing 200 binder units with its West Input face retained](../assets/screenshots/chemical-tank-controls.jpg)
 

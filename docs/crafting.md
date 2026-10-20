@@ -81,6 +81,7 @@ These are the actual authored item recipes loaded by this development pack. They
 | Precision Aggregate Array | 1 × Precision Installer + 1 × Refined Aggregate Array | 1 |
 | Resonant Aggregate Array | 1 × Resonant Installer + 1 × Precision Aggregate Array | 1 |
 | Intake Pump | 1 × Wooden Bucket + 4 × Tempered Alloy + 8 × Copper Ingot + 10 × Iron Ingot | 1 |
+| Electrolytic Separator | 1 × Wooden Bucket + 4 × Tempered Alloy + 6 × Copper Ingot + 12 × Iron Ingot | 1 |
 | Speed Module | 2 × Tempered Alloy + 4 × Copper Ingot | 1 |
 | Timber Splitter | 4 × Copper Ingot + 8 × Iron Ingot | 1 |
 | Foundry Timber Array | 1 × Foundry Installer + 1 × Timber Splitter | 1 |
