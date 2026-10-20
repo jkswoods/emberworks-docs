@@ -48,4 +48,4 @@ Pause before filling an ordinary empty bucket from the input. Recovery needs a w
 
 The authored Workbench recipe is **12 Iron Ingots, 6 Copper Ingots, 4 Tempered Alloy and 1 Wooden Bucket** for one base Separator. See the [actual Workbench table](../crafting.md). Native survival acquisition/unlock acceptance remains incomplete.
 
-Only ordinary water separation is implemented in this development build. Other feedstocks and later chemical consumers are not available through this machine yet. Empty all three buffers, finish paid work and discharge remaining Flux before removal. Back up the complete paired world, player data and matching JAR before changing builds; older builds may not read the new saved buffers.
+Only ordinary water separation is implemented in this development build. Hydrogen and Oxygen can feed the [Rotary](rotary.md); other separation feedstocks remain in development. Empty all three buffers, finish paid work and discharge remaining Flux before removal. Back up the complete paired world, player data and matching JAR before changing builds; older builds may not read the new saved buffers.

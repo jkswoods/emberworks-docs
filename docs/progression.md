@@ -26,4 +26,6 @@ A paused Pressure Forge converts each held Cobalt bar into **200 binder units**,
 
 *Carbon is a separate finite store. Pause before loading or recovering carriers. The pictured Resonant Array retains previously produced alloy.*
 
-Networked fluid/chemical transport and the larger advanced machine chains are not presented as implemented features in this guide.
+[Fluid networks](features/fluid-networks.md), [chemical networks](features/chemical-networks.md) and [water separation](features/separation.md) have representative native development loops. Larger advanced chains and complete survival progression remain in development.
+
+The [Rotary Condensentrator](features/rotary.md) adds finite, paid conversion between matching fluid and chemical phases. Water/vapor and Separator-produced Hydrogen are the representative native routes; the later chemical sources and complete survival unlock journey remain in development.

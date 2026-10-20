@@ -1482,6 +1482,27 @@
       "seconds": 3
     },
     {
+      "id": "EW_Rotary",
+      "name": "Rotary Condensentrator",
+      "inputs": {
+        "Ingredient_Bar_Iron": 12,
+        "Ingredient_Bar_Copper": 8,
+        "EW_TemperedAlloy": 4,
+        "Container_Bucket": 1
+      },
+      "quantity": 1,
+      "bench": [
+        {
+          "Type": "Crafting",
+          "Id": "Workbench",
+          "Categories": [
+            "Workbench_Crafting"
+          ]
+        }
+      ],
+      "seconds": 3
+    },
+    {
       "id": "EW_Separator",
       "name": "Electrolytic Separator",
       "inputs": {

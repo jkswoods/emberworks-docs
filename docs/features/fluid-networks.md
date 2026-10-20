@@ -50,3 +50,5 @@ All incoming connections share the receiver's limit; all outgoing connections sh
 The authored Workbench recipe for a Standard tank uses **8 Iron Ingots, 4 Copper Ingots, 2 Tempered Alloy and 1 Wooden Bucket**. **2 Iron Ingots and 2 Copper Ingots** make **4 Standard pipes**. Higher variants use one previous-tier component and one matching next-tier installer. See the [actual crafting table](../crafting.md) for names and ingredients; recipe presence does not establish completed survival acquisition.
 
 Hold the next installer and use the component's configuration to upgrade an existing block. Stored type, quantity, ports and pause state are retained. Empty a component before removal. Back up the paired world, player data and matching JAR before changing builds; older builds may not understand these saves.
+
+The [Rotary](rotary.md) also produces distinct local liquid phases such as Liquid Hydrogen. Tanks and pipes route these finite identities without mixing them with water or milk. These phases have no supported native bucket exchange; their tank panels show pipe guidance instead. Their wider source progression remains in development.

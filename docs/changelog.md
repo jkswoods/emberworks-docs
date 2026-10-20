@@ -2,6 +2,8 @@
 
 ## 0.3.0-dev · Hytale 0.7.2
 
+The Rotary development build adds separate finite fluid/chemical stores, paused Vaporize/Condense selection and paid 1:1 conversion in both directions. Native water/vapor/water and Hydrogen/liquid/Hydrogen loops each spent 20,000 Flux per 1,000-unit round trip. Both paid modes and stored liquid have normal reload evidence. Later chemical acquisition, full survival progression and external acceptance remain incomplete. See [Rotary conversion](features/rotary.md).
+
 The Separator development build adds finite water input, two independent chemical outputs and saved paid work. A native whole-bucket loop, including normal paid reload, produced exactly 1,000 Hydrogen and 500 Oxygen for 10,000 Flux. Chemical tanks/tubes now retain these two gases. Brine/heavy-water processing, full survival acquisition and external acceptance remain incomplete.
 
 The chemical-network development build adds five finite tank/tube tiers and separate world-axis chemical ports for Carbon and Cobalt binder. A native routed Carbon-alloy batch retained paid work across reload and completed exactly once. Binder rejection, return, whole-carrier recovery and stocked Foundry installation have been exercised. Complete survival progression and multiplayer acceptance remain incomplete.

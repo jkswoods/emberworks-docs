@@ -1,6 +1,6 @@
 # Chemical tanks and tubes
 
-Chemical Tanks and Chemical Tubes store and route finite **Carbon**, **Cobalt binder**, **Hydrogen** or **Oxygen**. A component holds one identity at a time. These stores are separate from water and milk; transport needs no Flux.
+Chemical Tanks and Chemical Tubes store and route one finite local chemical identity, including **Carbon**, **Cobalt binder**, **Hydrogen**, **Oxygen** and the [Rotary conversion catalog](rotary.md). A component holds one identity at a time. These stores are separate from water and milk; transport needs no Flux.
 
 This is a development feature for the supported test setup. A native tank → tube → Crucible loop has produced one Tempered Alloy, including a paused paid batch across normal reload. Binder rejection, return, carrier recovery and stocked Foundry upgrades have also been exercised. Complete survival crafting, ordinary Use input, human listening and real multiplayer remain under acceptance.
 
@@ -26,7 +26,7 @@ Hydrogen and Oxygen come from the [Electrolytic Separator](separation.md). They 
 
 ## Route to a matching machine
 
-Place face-adjacent tubes between the tank and a consumer. The **Alloy Crucible accepts Carbon**; the **Pressure Forge accepts Cobalt binder**. A mismatched consumer leaves stock upstream.
+Place face-adjacent tubes between the tank and a consumer. The **Alloy Crucible accepts Carbon**; the **Pressure Forge accepts Cobalt binder**. A mismatched consumer leaves stock upstream. A condensing [Rotary](rotary.md) accepts its matching gas and produces the distinct liquid phase.
 
 - Tanks keep their stock by default. Enable **Auto output** to send through permitted output faces.
 - Alternatively, set the adjoining tube face to **Input** to pull from an enabled tank. A tube cannot drain a consumer's paid chemical reserve.

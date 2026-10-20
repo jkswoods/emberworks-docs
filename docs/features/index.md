@@ -11,6 +11,7 @@
 | Fluid storage and transport | Fluid Tank, Fluid Pipe, five finite tiers | [Fluid networks](fluid-networks.md) |
 | Chemical storage and transport | Chemical Tank, Chemical Tube, five finite tiers | [Chemical networks](chemical-networks.md) |
 | Chemical processing | Electrolytic Separator, base tier | [Water separation](separation.md) |
+| Phase conversion | Rotary Condensentrator, base tier | [Rotary conversion](rotary.md) |
 | Portable Flux | Charging Plinth, Flux Pack | [Water and equipment](water-equipment.md) |
 
 Processing families, the Reservoir and the Crate have implemented tier variants. [Upgrades](../upgrades.md) explains lanes, storage, modules and installers. Pump, Floodgate and Charging Plinth are currently base-tier machines.
