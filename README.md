@@ -2,7 +2,7 @@
 
 [Read the guide](https://jkswoods.github.io/emberworks-docs/) · [First useful loop](docs/getting-started.md) · [Machine guide](docs/features/index.md)
 
-![Emberworks original forge-and-ember artwork](docs/assets/brand/banner.png)
+![Emberworks — cinematic workshop artwork](docs/assets/brand/banner-cinematic-v2.png)
 
 Build a connected workshop with industrial machines, Flux power, material routing and finite water and chemical stores.
 

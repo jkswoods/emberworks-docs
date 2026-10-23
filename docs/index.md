@@ -1,6 +1,6 @@
 # Emberworks
 
-![Emberworks original forge-and-ember banner](assets/brand/banner.png)
+![Emberworks — cinematic workshop artwork](assets/brand/banner-cinematic-v2.png)
 
 Build a connected workshop with industrial machines, Flux power, material routing and finite water and chemical stores.
 
