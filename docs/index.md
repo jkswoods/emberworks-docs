@@ -1,12 +1,12 @@
 # Emberworks
 
-![Emberworks original forge-and-ember banner](assets/brand/banner.png)
+![Emberworks — cinematic workshop artwork](assets/brand/banner-cinematic-v2.png)
 
-**From charcoal to a connected workshop.** Emberworks adds industrial machines, Flux power, material routing and finite local water and chemical stores to Hytale.
+Build a connected workshop with industrial machines, Flux power, material routing and finite water and chemical stores.
 
 This guide covers **0.3.0-dev for Hytale 0.7.2**. It describes a development build with native-tested representative machine loops. Survival acquisition, human sound/visual acceptance and real multiplayer acceptance are still incomplete. No public mod release or download is available.
 
-[Installation and support status](installation.md) · [First useful loop](getting-started.md) · [Machine guide](features/index.md) · [Recipe catalog](recipes.md)
+<div class="mod-actions"><a class="mod-button" href="getting-started/">Build your first workshop</a><a class="mod-button mod-button-secondary" href="installation/">Read compatibility</a></div>
 
 [![A compact native Emberworks test workshop with copper and steel machines, a low charging deck and water intake](assets/screenshots/workshop.png)](assets/screenshots/workshop.png)
 
